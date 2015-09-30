@@ -1,5 +1,5 @@
 --- 
 # The only mandatory fields are name and path for simple Java web apps. 
 applications: 
-- name: helloutils 
-  path: build/helloutils.0.1
+- name: raj-0.1
+  path: .
