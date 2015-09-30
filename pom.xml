@@ -19,18 +19,15 @@
  <directory>build</directory>
  <outputDirectory>build\classes</outputDirectory>
 <plugins> 
-<!-- download source code in Eclipse, best practice --> <plugin> 
-<groupId>yl</groupId>
-  <artifactId>raj</artifactId>
-  <version>1.1</version>
- <configuration> 
-<downloadSources>true</downloadSources> <downloadJavadocs>false</downloadJavadocs> </configuration> 
+<!-- download source code in Eclipse, best practice --> 
+<plugin> 
+<configuration> 
+<downloadSources>true</downloadSources> 
+<downloadJavadocs>false</downloadJavadocs> 
+</configuration> 
 </plugin> 
 <!-- Set a compiler level --> 
 <plugin> 
-<groupId>yl</groupId>
-  <artifactId>raj</artifactId>
-  <version>1.1</version>
 <configuration>
  <source>${jdk.version}</source> 
 <target>${jdk.version}</target> 
@@ -38,17 +35,16 @@
 </plugin> 
 <!-- Make this jar executable --> 
 <plugin> 
-<groupId>yl</groupId>
-  <artifactId>raj</artifactId>
-  
 <configuration>
  <excludes> 
 <exclude>**/log4j.properties</exclude> 
 </excludes>
  <archive>
  <manifest> 
-<addClasspath>true</addClasspath>
- <mainClass>src.main.java.yl.raj.App</mainClass> <classpathPrefix>dependency-jars/</classpathPrefix> </manifest>
+ <addClasspath>true</addClasspath>
+ <mainClass>src.main.java.yl.raj.App</mainClass>
+ <classpathPrefix>dependency-jars/</classpathPrefix>
+ </manifest>
  </archive> 
 </configuration> 
 </plugin> 
