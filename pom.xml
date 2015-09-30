@@ -6,10 +6,26 @@
   <artifactId>raj</artifactId>
   <version>0.1</version>
   <packaging>jar</packaging>
-  <build> 
+
+<build> 
 <finalName>helloutils</finalName>
 <directory>build</directory>
-</build>
+ 		<plugins> 
+ 			<plugin> 
+  <groupId>yl</groupId>
+  <artifactId>raj</artifactId>
+  <version>0.1</version>
+ 				<configuration> 
+ 					<archive> 
+ 						<manifest> 
+ 							<mainClass>src.main.java.yl.raj.App</mainClass> 
+ 						</manifest> 
+ 					</archive> 
+ 				</configuration> 
+ 			</plugin> 
+ 		</plugins> 
+ 	</build> 
+
   <url>http://maven.apache.org</url>
 
   <properties>
