@@ -5,7 +5,7 @@ deploy:
   username: talk2jamesraj@yahoo.com
   password: sacsb4u!
   api: https://api.run.pivotal.io
-  organization: myawesomeorganization
-  space: staging
+  organization: letustry
+  space: development
 
 
