@@ -16,6 +16,8 @@
 
 <build> 
 <finalName>helloutils</finalName> 
+ <directory>build</directory>
+ <outputDirectory>build\classes</outputDirectory>
 <plugins> 
 <!-- download source code in Eclipse, best practice --> <plugin> 
 <groupId>yl</groupId>
@@ -50,7 +52,8 @@
  </archive> 
 </configuration> 
 </plugin> 
- </plugins> </build> 
+ </plugins> 
+ </build> 
 
 
   <dependencies>
