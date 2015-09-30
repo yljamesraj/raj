@@ -1,5 +1,5 @@
 --- 
 # The only mandatory fields are name and path for simple Java web apps. 
 applications: 
-- name: raj-0.1
-  path: /home/travis/.m2/repository/yl/raj/0.1/raj-0.1.jar
+- name: finalProj
+  path: finalProj.war
