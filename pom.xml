@@ -21,6 +21,8 @@
 <plugins> 
 <!-- download source code in Eclipse, best practice --> 
 <plugin> 
+  <groupId>yl</groupId>
+  <artifactId>raj</artifactId>
 <configuration> 
 <downloadSources>true</downloadSources> 
 <downloadJavadocs>false</downloadJavadocs> 
@@ -28,6 +30,8 @@
 </plugin> 
 <!-- Set a compiler level --> 
 <plugin> 
+  <groupId>yl</groupId>
+  <artifactId>raj</artifactId>
 <configuration>
  <source>${jdk.version}</source> 
 <target>${jdk.version}</target> 
