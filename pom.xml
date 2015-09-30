@@ -4,7 +4,7 @@
 
   <groupId>yl</groupId>
   <artifactId>raj</artifactId>
-  <version>1.1</version>
+  <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>raj</name>
@@ -13,33 +13,6 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-
-<build> 
-<finalName>helloutils</finalName> 
- <directory>build</directory>
- <outputDirectory>build\classes</outputDirectory>
-<plugins> 
-<!-- download source code in Eclipse, best practice --> 
-<!-- Make this jar executable --> 
-<plugin> 
-  <groupId>yl</groupId>
-  <artifactId>raj</artifactId>
-<configuration>
- <excludes> 
-<exclude>**/log4j.properties</exclude> 
-</excludes>
- <archive>
- <manifest> 
- <addClasspath>true</addClasspath>
- <mainClass>src.main.java.yl.raj.App</mainClass>
- <classpathPrefix>dependency-jars/</classpathPrefix>
- </manifest>
- </archive> 
-</configuration> 
-</plugin> 
- </plugins> 
- </build> 
-
 
   <dependencies>
     <dependency>
