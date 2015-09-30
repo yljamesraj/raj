@@ -20,23 +20,6 @@
  <outputDirectory>build\classes</outputDirectory>
 <plugins> 
 <!-- download source code in Eclipse, best practice --> 
-<plugin> 
-  <groupId>yl</groupId>
-  <artifactId>raj</artifactId>
-<configuration> 
-<downloadSources>true</downloadSources> 
-<downloadJavadocs>false</downloadJavadocs> 
-</configuration> 
-</plugin> 
-<!-- Set a compiler level --> 
-<plugin> 
-  <groupId>yl</groupId>
-  <artifactId>raj</artifactId>
-<configuration>
- <source>${jdk.version}</source> 
-<target>${jdk.version}</target> 
-</configuration> 
-</plugin> 
 <!-- Make this jar executable --> 
 <plugin> 
   <groupId>yl</groupId>
