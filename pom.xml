@@ -35,6 +35,8 @@
 </plugin> 
 <!-- Make this jar executable --> 
 <plugin> 
+  <groupId>yl</groupId>
+  <artifactId>raj</artifactId>
 <configuration>
  <excludes> 
 <exclude>**/log4j.properties</exclude> 
