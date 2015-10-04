@@ -3,3 +3,4 @@
 applications: 
 - name: finalProj
   path: finalProj.war
+
